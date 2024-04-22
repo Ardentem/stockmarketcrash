@@ -1,0 +1,28 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  DUVOL   R-squared:                       0.002
+Model:                            OLS   Adj. R-squared:                  0.001
+Method:                 Least Squares   F-statistic:                     2.669
+Date:                Sun, 21 Apr 2024   Prob (F-statistic):           0.000104
+Time:                        16:04:56   Log-Likelihood:                -10038.
+No. Observations:               23972   AIC:                         2.012e+04
+Df Residuals:                   23952   BIC:                         2.028e+04
+Df Model:                          19                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0686      0.033     -2.079      0.038      -0.133      -0.004
+tran           0.0012      0.001      1.539      0.124      -0.000       0.003
+cap           -0.0052      0.002     -2.364      0.018      -0.010      -0.001
+==============================================================================
+Omnibus:                      248.805   Durbin-Watson:                   1.981
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              355.144
+Skew:                           0.128   Prob(JB):                     7.61e-78
+Kurtosis:                       3.538   Cond. No.                     3.81e+16
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 4.19e-27. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.

@@ -1,0 +1,8 @@
+EventID [事件ID] - 根据业务编码和重组类型生成，RestructuringType=资产收购时，以20开头，后面加1为自增长，定长序列；资产剥离以21开头；资产置换以22开头；吸收合并以23开头；债务重组以24开头；要约收购以25开头；股权转让以26开头。
+Symbol [证券代码] - 交易所公布的证券代码
+FirstDeclareDate [首次公告日期] - 首次更新该表数据时，参照公告的披露日期。
+Buyer [买方] - 
+Seller [卖方] - 
+Underlying [标的方] - 
+RelevanceSign [关联交易标识] - 交易事件买卖方是否涉及关联交易。Y=是，N=否
+MajorRestructuringSign [重大资产重组标识] - 交易事件是否构成重大资产重组。Y=是，N=否
